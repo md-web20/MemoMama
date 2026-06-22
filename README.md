@@ -1,16 +1,43 @@
-# React + Vite
+# 📦 MemoMama - Digital Invoice & Inventory Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**MemoMama** is a robust, full-stack web application designed for small to medium-sized businesses to manage their inventory, track pricing, and monitor stock levels efficiently. Built with speed and security in mind, it provides a clean interface for everyday business operations.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [https://trymemomama.com/en/products](https://trymemomama.com/en/products)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Inventory Tracking:** Real-time monitoring of product stock levels.
+- **Dynamic Pricing:** Easily manage Buy Price and Sell Price for every item.
+- **Low Stock Alerts:** Automated visual indicators (red alerts) when stock drops below a certain threshold.
+- **Revenue Overview:** Quick stats for total products, low stock items, and overall stock value.
+- **Secure Architecture:** Built with Firebase for secure user data handling and real-time database updates.
+- **Responsive Design:** Fully optimized for desktops, tablets, and mobile devices.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, Vite
+- **Styling:** Tailwind CSS (for modern UI)
+- **Backend/Database:** Firebase (Firestore, Hosting, and Functions)
+- **State Management:** React Hooks
+- **Icons & UI:** Lucide React / Custom UI Components
+
+---
+
+## 🛡️ Data Privacy & Security
+
+As this is a service-oriented platform handling financial and business data:
+- User data is isolated and protected via **Firebase Security Rules**.
+- Sensitive environment variables are kept secure and never exposed in the public repository.
+- Robust `.gitignore` configuration to prevent accidental leakage of private configuration files.
+
+---
+
+## 🚀 How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/md-web20/MemoMama.git
