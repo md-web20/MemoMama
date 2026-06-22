@@ -2,7 +2,7 @@
 
 **MemoMama** is a robust, full-stack web application designed for small to medium-sized businesses to manage their inventory, track pricing, and monitor stock levels efficiently. Built with speed and security in mind, it provides a clean interface for everyday business operations.
 
-🔗 **Live Demo:** [https://trymemomama.com/en/products](https://trymemomama.com/en/products)
+🔗 **Live Demo:** [https://trymemomama.com/en/products](https://trymemomama.com/en)
 
 ---
 
